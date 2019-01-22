@@ -12,11 +12,12 @@ body {
     margin: 0 auto;
     padding: 0;
 }
-
+table {
+    border-style: double;
+    border-color: darkgray;
+}
 #articles {
     margin: 4% 6%;
     padding: 0;
-    background: blue;
     width: 88%;
-    height: 15px;
 }

@@ -1,3 +1,14 @@
-{{#each articles}}
-<a href={{this.link}}><p>{{this.title}}</p></a>
-{{/each}}
+<table>
+    {{#each articles}}
+    <tr>
+        <td>
+            <h6><a href={{this.link}}>{{this.title}}</a></h2>
+        </td>
+        <td>
+            <button class="save" value={{this.row}}>
+                Save Article!
+            </button>
+        </td>
+    </tr>
+    {{/each}}
+</table>

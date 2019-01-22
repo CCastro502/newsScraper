@@ -17,6 +17,11 @@ var ArticleSchema = new Schema({
     required: true
   },
 
+  row: {
+    type: Number,
+    required: true
+  },
+
   saved: {
       type: Schema.Types.ObjectId,
       ref: "SavedArticle"
