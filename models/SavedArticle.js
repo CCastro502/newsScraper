@@ -15,6 +15,11 @@ var SavedArticleSchema = new Schema({
   link: {
     type: String,
     required: true
+  },
+
+  row: {
+    type: Number,
+    required: true
   }
 });
 
